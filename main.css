@@ -15,44 +15,106 @@ body {
 .sun {
   --size: 100px;
   background: linear-gradient(45deg, goldenrod, yellow);
-  animation: sun 1s infinite linear;
+  animation: sun 4s infinite linear;
 }
 
 .mercury {
   --size: 20px;
   background: linear-gradient(45deg, dimgrey, lightgray);
-  animation: mercury 1.5s infinite linear;
+  animation: mercury 4.5s infinite linear;
+}
+.orbit-mercury {
+  position: absolute;
+  border: 1px solid white;
+  height: 160px;
+  width: 160px;
+  top: calc(50% - 160px / 2);
+  left: calc(50% - 160px / 2);
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .venus {
   --size: 24px;
   background: linear-gradient(45deg, orangered, peru);
-  animation: venus 2s infinite linear;
+  animation: venus 6s infinite linear;
+}
+.orbit-venus {
+  position: absolute;
+  border: 1px solid white;
+  height: 240px;
+  width: 240px;
+  top: calc(50% - 240px / 2);
+  left: calc(50% - 240px / 2);
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .earth {
   --size: 40px;
   background: linear-gradient(45deg, steelblue, cadetblue);
-  animation: earth 2.5s infinite linear;
+  animation: earth 6.5s infinite linear;
+}
+.orbit-earth {
+  position: absolute;
+  border: 1px solid white;
+  height: 320px;
+  width: 320px;
+  top: calc(50% - 320px / 2);
+  left: calc(50% - 320px / 2);
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .mars {
   --size: 30px;
   background: linear-gradient(45deg, crimson, darkred);
-  animation: mars 3s infinite linear;
+  animation: mars 7s infinite linear;
+}
+.orbit-mars {
+  position: absolute;
+  border: 1px solid white;
+  height: 400px;
+  width: 400px;
+  top: calc(50% - 400px / 2);
+  left: calc(50% - 400px / 2);
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .jupiter {
   --size: 70px;
   background: linear-gradient(45deg, darksalmon, lightyellow);
-  animation: jupiter 3.5s infinite linear;
+  animation: jupiter 7.5s infinite linear;
 }
+.orbit-jupiter {
+  position: absolute;
+  border: 1px solid white;
+  height: 520px;
+  width: 520px;
+  top: calc(50% - 520px / 2);
+  left: calc(50% - 520px / 2);
+  border-radius: 50%;
+  z-index: -1;
+}
+
 
 .saturn {
   --size: 45px;
   background: linear-gradient(45deg, peru, peachpuff);
-  animation: earth 4s infinite linear;
+  animation: saturn 8s infinite linear;
 }
+.orbit-saturn {
+  position: absolute;
+  border: 1px solid white;
+  height: 640px;
+  width: 640px;
+  top: calc(50% - 640px / 2);
+  left: calc(50% - 640px / 2);
+  border-radius: 50%;
+  z-index: -1;
+}
+
 
 .saturn::after {
   content: '';
@@ -70,20 +132,53 @@ body {
 .uranus {
   --size: 50px;
   background: linear-gradient(45deg, skyblue, lightsteelblue);
-  animation: uranus 4.5s infinite linear;
+  animation: uranus 8.5s infinite linear;
 }
+.orbit-uranus {
+  position: absolute;
+  border: 1px solid white;
+  height: 720px;
+  width: 720px;
+  top: calc(50% - 720px / 2);
+  left: calc(50% - 720px / 2);
+  border-radius: 50%;
+  z-index: -1;
+}
+
 
 .neptune {
   --size: 30px;
   background: linear-gradient(45deg, royalblue, navy);
-  animation: neptune 5s infinite linear;
+  animation: neptune 9s infinite linear;
 }
+.orbit-neptune {
+  position: absolute;
+  border: 1px solid white;
+  height: 800px;
+  width: 800px;
+  top: calc(50% - 800px / 2);
+  left: calc(50% - 800px / 2);
+  border-radius: 50%;
+  z-index: -1;
+}
+
 
 .pluto {
   --size: 5px;
   background: linear-gradient(45deg, lightgray, snow);
-  animation: pluto 5.5s infinite linear;
+  animation: pluto 9.5s infinite linear;
 }
+.orbit-pluto {
+  position: absolute;
+  border: 1px dotted white;
+  height: 920px;
+  width: 920px;
+  top: calc(50% - 920px / 2);
+  left: calc(50% - 920px / 2);
+  border-radius: 50%;
+  z-index: -1;
+}
+
 
 @keyframes mercury {
   from {
