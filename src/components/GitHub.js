@@ -1,0 +1,9 @@
+import React from 'react'
+
+function GitHub() {
+  return (
+    <h1>GitHub</h1>
+  )
+}
+
+export default GitHub

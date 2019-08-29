@@ -1,46 +1,60 @@
 import React from 'react'
 import '../App.css'
 import { Link } from "react-router-dom"
+import Nav from './Nav'
 
-function Home() {
-  return (
-    <div>
-      <Link to="/">
-        <div class="star sun">
-          <h3>Home</h3>
-        </div>
-      </Link>
 
-      <div class="planet mercury"></div>
-      <div class="planet venus"></div>
+class Home extends React.Component {
+  state = {
+    class: '',
+  }
+  setClassToShow = () => {
+    this.setState({
+      class: 'show'
+    })
+  }
+  render () {
+    return (
+      <div id="universe">
+        <Nav />
+      <div id="galaxy">
+        <Link to="/">
+          <div class="star sun">
+          </div>
+        </Link>
 
-      <Link to="/bio">
-        <div class="planet earth">
-          <h3>Bio</h3>
-        </div>
-      </Link>
+        <div class="planet mercury"></div>
+        <div class="planet venus"></div>
 
-      <div class="planet mars"></div>
+        <Link to="/bio">
+          <div class="planet earth">
+            <h3>Bio</h3>
+          </div>
+        </Link>
 
-      <Link to="/projects"><div class="planet jupiter"></div></Link>
+        <div class="planet mars"></div>
 
-      <Link to="/contact"><div class="planet saturn"></div></Link>
+        <Link to="/projects"><div class="planet jupiter"></div></Link>
 
-      <div class="planet uranus"></div>
-      <div class="planet neptune"></div>
-      <div class="planet pluto"></div>
+        <Link to="/contact"><div class="planet saturn"></div></Link>
 
-      <div class="orbit-mercury"></div>
-      <div class="orbit-venus"></div>
-      <div class="orbit-earth"></div>
-      <div class="orbit-mars"></div>
-      <div class="orbit-jupiter"></div>
-      <div class="orbit-saturn"></div>
-      <div class="orbit-uranus"></div>
-      <div class="orbit-neptune"></div>
-      <div class="orbit-pluto"></div>
-    </div>
-  )
+        <div class="planet uranus"></div>
+        <div class="planet neptune"></div>
+        <div class="planet pluto"></div>
+
+        <div class="orbit-mercury"></div>
+        <div class="orbit-venus"></div>
+        <div class="orbit-earth"></div>
+        <div class="orbit-mars"></div>
+        <div class="orbit-jupiter"></div>
+        <div class="orbit-saturn"></div>
+        <div class="orbit-uranus"></div>
+        <div class="orbit-neptune"></div>
+        <div class="orbit-pluto"></div>
+      </div>
+      </div>
+    )
+  }
 }
 
 export default Home

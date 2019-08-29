@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Bio from './components/Bio'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Inspiration from './components/Inspiration'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/bio" component={Bio} />
       <Route path="/projects" component={Projects} />
       <Route path="/contact" component={Contact} />
+      <Route path="/inspiration" component={Inspiration} />
     </Router>
   )
 }
