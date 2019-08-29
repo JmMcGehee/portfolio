@@ -2,7 +2,10 @@ import React from 'react'
 
 function Inpiration() {
   return (
-    <h1>Inpiration</h1>
+    <div id="inspiration">
+      <Nav />
+      <h1>Inpiration</h1>
+    </div>
   )
 }
 
