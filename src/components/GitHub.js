@@ -2,7 +2,9 @@ import React from 'react'
 
 function GitHub() {
   return (
-    <h1>GitHub</h1>
+    <div id="github-profile">
+      <a href="https://github.com/JmMcGehee">See my work on GitHub</a>
+    </div>
   )
 }
 

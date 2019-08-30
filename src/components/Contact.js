@@ -5,7 +5,8 @@ function Contact() {
   return (
     <div>
       <Nav />
-      <h1>Contact Page</h1>
+      <h5>Get in touch</h5>
+      Email: <p>McGehee.Joshua@gmail.com</p>
     </div>
   )
 }
