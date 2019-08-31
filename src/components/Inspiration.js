@@ -5,7 +5,7 @@ function Inpiration() {
   return (
     <div id="inspiration">
       <Nav />
-      <h1>Inpiration</h1>
+      <h1>Inspiration</h1>
     </div>
   )
 }
