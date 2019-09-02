@@ -1,10 +1,10 @@
 import React from 'react'
+import pdf from '../assets/JoshuaMcGehee_Resume.pdf'
 
 function Resume() {
   return (
     <div id="resume">
-      <h1>Resume</h1>
-      <a href="public/JoshuaMcGehee_Resume.pdf" download>Click to download my resume</a>
+      <a href={pdf} download>Click to download my resume</a>
     </div>
   )
 }
