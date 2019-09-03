@@ -8,6 +8,7 @@ body {
   color: white;
 }
 
+
 #nav {
   position: relative;
   /* height: 1.5em; */
@@ -72,6 +73,10 @@ img {
   box-shadow: 0 0 10px white;
 }
 
+.projects {
+  text-align: center;
+}
+
 .project {
   display: flex;
   justify-content: center;
@@ -91,6 +96,13 @@ iframe {
   margin: 2em;
   border-radius: 10px;
   box-shadow: 0 0 5px white;
+}
+
+.live-site a {
+  position: relative;
+  text-decoration: none;
+  border-radius: 50px;
+  background: linear-gradient(45deg, rgb(51, 102, 153), rgb(179, 204, 230));
 }
 
 .planet, .star {
