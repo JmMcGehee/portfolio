@@ -32,7 +32,7 @@ a:hover {
   /* border: 2px solid white; */
   border-radius: 50px;
   margin: 1%;
-  background: linear-gradient(45deg, rgb(51, 102, 153), rgb(179, 204, 230));
+  background-color: rgb(51, 102, 153);
 }
 
 a:visited {
@@ -64,7 +64,7 @@ a:active {
   max-width: 95%;
   text-decoration: none;
   border-radius: 50px;
-  background: linear-gradient(45deg, rgb(51, 102, 153), rgb(179, 204, 230));
+  background-color: rgb(51, 102, 153);
 }
 
 img {
@@ -102,7 +102,7 @@ iframe {
   position: relative;
   text-decoration: none;
   border-radius: 50px;
-  background: linear-gradient(45deg, rgb(51, 102, 153), rgb(179, 204, 230));
+  background-color: rgb(51, 102, 153);
 }
 
 .planet, .star {
