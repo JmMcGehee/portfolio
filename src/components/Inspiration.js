@@ -1,13 +1,13 @@
 import React from 'react'
 import Nav from './Nav'
 
-function Inpiration() {
+function Inspiration() {
   return (
     <div id="inspiration">
       <Nav />
-      <h1>Inspiration</h1>
+      <h1>Comming soon</h1>
     </div>
   )
 }
 
-export default Inpiration
+export default Inspiration

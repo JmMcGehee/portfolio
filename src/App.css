@@ -72,13 +72,21 @@ a:active {
   text-align: center;
 }
 
+
 .links {
   position: relative;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  display: inline-block;
+}
+
+.links li {
+  margin-left: -10%;
+  margin-top: 5%;
 }
 
 .links a {
+  /* margin: 2%; */
   font-size: 1.5em;
   max-width: 95%;
   text-decoration: none;
@@ -122,6 +130,14 @@ iframe {
   text-decoration: none;
   border-radius: 50px;
   background-color: rgb(51, 102, 153);
+}
+
+.contact {
+  text-align: center;
+}
+
+#inspiration {
+  text-align: center;
 }
 
 .planet, .star {

@@ -17,9 +17,15 @@ function Bio() {
   My greatest passions lie in developing digital tech to advance the fight against climate change, the understanding of STEM fields, and the exploration of space. </p>
 
         <div className="links">
-          <LinkedIn />
+
+          <ul>
+            <li><LinkedIn /></li>
+            <li><Resume /></li>
+            <li><GitHub /></li>
+          </ul>
+          {/* <LinkedIn />
           <Resume />
-          <GitHub />
+          <GitHub /> */}
         </div>
       </div>
     </div>
