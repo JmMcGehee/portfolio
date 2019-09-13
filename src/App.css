@@ -70,13 +70,36 @@ a:active {
 #bio {
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
+.about-me {
+  max-width: 40%;
+}
+
+.section {
+  margin-top: 15%;
+}
+
+.skills {
+  /* max-width: 50%; */
+}
+
+.skills-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+  /* max-width: 50%; */
+}
+
+.skills-list * {
+  max-width: 30%;
+}
 
 .links {
   position: relative;
-  /* display: flex;
-  justify-content: center; */
   display: inline-block;
 }
 
@@ -86,7 +109,6 @@ a:active {
 }
 
 .links a {
-  /* margin: 2%; */
   font-size: 1.5em;
   max-width: 95%;
   text-decoration: none;
