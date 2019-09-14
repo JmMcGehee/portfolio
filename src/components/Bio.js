@@ -27,7 +27,7 @@ function Bio() {
             <li><Resume /></li>
           </ul>
         </div>
-        {/* <div className="skills">
+        <div className="skills">
           <h2>Skills</h2>
           <div className="skills-list">
             <h5>JavaScript</h5>
@@ -47,7 +47,7 @@ function Bio() {
             <h5>Git</h5>
             <h5>GitHub</h5>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
     </div>

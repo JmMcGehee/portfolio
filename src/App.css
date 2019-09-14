@@ -1,6 +1,6 @@
-/* * {
-  border: 1px solid white;
-} */
+* {
+  /* border: 1px solid white; */
+}
 
 ul {
   text-align: center;
@@ -75,31 +75,58 @@ a:active {
 }
 
 .about-me {
-  max-width: 40%;
+  max-width: 50%;
+  margin: 1em;
 }
 
 .section {
-  margin-top: 15%;
+  max-width: 50%;
+  margin: 2em;
+  margin-top: 3em;
+  /* border: 2px solid gold; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .skills {
-  /* max-width: 50%; */
+  /* border: 2px solid red; */
+  margin-top: 10%;
+}
+
+.skills h2 {
+  margin: 2%;
+  padding-bottom: .5em;
+  border-bottom: 1px solid white;
 }
 
 .skills-list {
+  position: relative;
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
   flex-wrap: wrap;
-  height: 100%;
+  max-height:14em;
+  /* border: 2px solid green; */
   /* max-width: 50%; */
 }
 
-.skills-list * {
+.skills-list h5 {
+  padding: .5em;
   max-width: 30%;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: .5em;
+  /* margin-left: 12%; */
+  /* margin-right: 10%; */
+}
+
+.skills-list h5:hover {
+  background-color: white;
+  color: black;
 }
 
 .links {
-  position: relative;
   display: inline-block;
 }
 
