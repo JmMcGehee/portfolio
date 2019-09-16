@@ -101,14 +101,24 @@ a:active {
 }
 
 .skills-list {
+  border: 1px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 1%;
+}
+
+.skills-list h5 {
+  border: 1px solid blue;
+}
+
+/* .skills-list {
   position: relative;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
   max-height:14em;
-  /* border: 2px solid green; */
-  /* max-width: 50%; */
 }
 
 .skills-list h5 {
@@ -117,9 +127,7 @@ a:active {
   border: 2px solid white;
   border-radius: 50%;
   margin: .5em;
-  /* margin-left: 12%; */
-  /* margin-right: 10%; */
-}
+} */
 
 .skills-list h5:hover {
   background-color: white;
