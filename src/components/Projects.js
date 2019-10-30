@@ -1,11 +1,11 @@
 import React from 'react'
-import Nav from './Nav'
+import Navigation from './Nav'
 import { Link } from 'react-router-dom'
 
 function Projects() {
   return (
     <div className="projects">
-  <Nav />
+  <Navigation />
   <h1>Projects</h1>{" "}
   <div id="project-container">
     <div class="project">

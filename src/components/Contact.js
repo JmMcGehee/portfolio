@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from './Nav'
+import Navigation from './Nav'
 
 function Contact() {
   return (
     <div>
-      <Nav />
+      <Navigation />
       <div className="contact">
         <h2>Get in touch</h2>
         Email: <p>McGehee.Joshua@gmail.com</p>

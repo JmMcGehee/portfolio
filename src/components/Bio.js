@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './Nav'
+import Navigation from './Nav'
 import LinkedIn from './LinkedIn'
 import Resume from './Resume'
 import GitHub from './GitHub'
@@ -7,7 +7,7 @@ import GitHub from './GitHub'
 function Bio() {
   return (
     <div>
-      <Nav />
+      <Navigation />
     <div id="bio">
       <div className="about-me">
         <h1>About Me</h1>

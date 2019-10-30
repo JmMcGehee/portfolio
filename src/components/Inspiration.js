@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from './Nav'
+import Navigation from './Nav'
 
 function Inspiration() {
   return (
     <div id="inspiration">
-      <Nav />
+      <Navigation />
       <h1>Coming soon</h1>
     </div>
   )

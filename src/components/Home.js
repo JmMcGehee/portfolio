@@ -1,7 +1,8 @@
 import React from 'react'
+import { Container } from 'reactstrap'
 import '../App.css'
 import { Link } from "react-router-dom"
-import Nav from './Nav'
+import Navigation from './Nav'
 
 
 class Home extends React.Component {
@@ -15,44 +16,46 @@ class Home extends React.Component {
   }
   render () {
     return (
-      <div id="universe">
-        <Nav />
-      <div id="galaxy">
-        <Link to="/">
-          <div class="star sun">
-          </div>
-        </Link>
+      <Container fluid className="bg-dark">
+        <div id="universe" className="bg-dark">
+          <Navigation />
+        <div id="galaxy">
+          <Link to="/">
+            <div class="star sun">
+            </div>
+          </Link>
 
-        <div class="planet mercury"></div>
-        <div class="planet venus"></div>
+          <div class="planet mercury"></div>
+          <div class="planet venus"></div>
 
-        <Link to="/bio">
-          <div class="planet earth">
-            <h3>Bio</h3>
-          </div>
-        </Link>
+          <Link to="/bio">
+            <div class="planet earth">
+              <h3>Bio</h3>
+            </div>
+          </Link>
 
-        <div class="planet mars"></div>
+          <div class="planet mars"></div>
 
-        <Link to="/projects"><div class="planet jupiter"></div></Link>
+          <Link to="/projects"><div class="planet jupiter"></div></Link>
 
-        <Link to="/contact"><div class="planet saturn"></div></Link>
+          <Link to="/contact"><div class="planet saturn"></div></Link>
 
-        <div class="planet uranus"></div>
-        <div class="planet neptune"></div>
-        <div class="planet pluto"></div>
+          <div class="planet uranus"></div>
+          <div class="planet neptune"></div>
+          <div class="planet pluto"></div>
 
-        <div class="orbit-mercury"></div>
-        <div class="orbit-venus"></div>
-        <div class="orbit-earth"></div>
-        <div class="orbit-mars"></div>
-        <div class="orbit-jupiter"></div>
-        <div class="orbit-saturn"></div>
-        <div class="orbit-uranus"></div>
-        <div class="orbit-neptune"></div>
-        <div class="orbit-pluto"></div>
-      </div>
-      </div>
+          <div class="orbit-mercury"></div>
+          <div class="orbit-venus"></div>
+          <div class="orbit-earth"></div>
+          <div class="orbit-mars"></div>
+          <div class="orbit-jupiter"></div>
+          <div class="orbit-saturn"></div>
+          <div class="orbit-uranus"></div>
+          <div class="orbit-neptune"></div>
+          <div class="orbit-pluto"></div>
+        </div>
+        </div>
+      </Container>
     )
   }
 }
